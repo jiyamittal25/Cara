@@ -744,49 +744,6 @@ footer .copywrite{
 
 
 
-/* .btn{
-	border: .2rem solid var(--black);
-	margin-top: 1rem;
-	display: inline-block;
-	font-size: 1.7rem;
-	border-radius: .5rem;
-	color: var(--black);
-	cursor: pointer;
-	background: none;
-}
-.login-form{
-	border: 1px solid;
-	position: absolute;
-	top:110%;
-	right: 2rem;
-	box-shadow: var(--box-shadow);
-	border-radius: .5rem;
-	background: #fff;
-	text-align: center;
-	width: 20rem;
-}
-.login-form h3{
-	font-size: 2.5rem;
-	text-transform: uppercase;
-	color: var(--black);
-}
-
-.login-form .box{
-	width: 100%;
-	border:1px solid;
-	margin: .7rem 0;
-	background: #eee;
-	border-radius: .5rem;
-	padding: 1rem;
-	font-size: 1.5rem;
-	color: var(--black);
-	text-transform: none;
-} */
-
-
-
-
-
 
 /* media query */
 @media (max-width:1024px){
