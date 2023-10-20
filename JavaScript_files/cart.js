@@ -102,9 +102,6 @@ let totalAmount=()=>{
         if(amount<1000){
             Shippingcharge=40;
         }
-        else{
-
-        }
 
         carttotal.innerHTML = `
                 <tr>
@@ -124,3 +121,16 @@ let totalAmount=()=>{
     else return;
 }
 totalAmount();
+
+function checkout(){
+  let product_placed=document.getElementById("product_placed");
+  product_placed.style.backgroundColor="blue";
+  product_placed.style.display= "inline-block";
+  product_placed.style.height= "auto";
+  product_placed.style.padding= "20px";
+  product_placed.style.textAlign= "center";
+  product_placed.style.borderRadius= "4px";;
+  product_placed.innerHTML = "YOUR ORDER HAS BEEN PLACED";
+  alert("Your order has been Placed");
+  console.log(product_placed);
+}  

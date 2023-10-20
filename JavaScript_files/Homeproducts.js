@@ -165,48 +165,48 @@ calculation2();
 
 
 //features
-let feature = document.getElementById("feature");
-let feature_data = [
-  {
-    id: 1,
-    img: "../images/f1.png",
-    desc: "FREE SHIPING",
-  },
-  {
-    id: 2,
-    img: "../images/f2.png",
-    desc: "ONLINE ORDER",
-  },
-  {
-    id: 3,
-    img: "../images/f3.png",
-    desc: "SAVE MONEY",
-  },
-  {
-    id: 4,
-    img: "../images/f4.png",
-    desc: "PROMOTIONS",
-  },
-  {
-    id: 5,
-    img: "../images/f5.png",
-    desc: "HAPPY SELLS",
-  },
-  {
-    id: 6,
-    img: "../images/f6.png",
-    desc: "F24/7 SUPPORT",
-  },
-];
-function generatefeatures(){
-  return (feature.innerHTML=feature_data.map((x)=>{
-    let {img,desc}=x;
-    return `
-        <div class="fe-box">
-            <img src=${img} alt="">
-            <h6>${desc}</h6>
-        </div>
-    `;
-  }).join(""));
-}
-generatefeatures();
+// let feature = document.getElementById("feature");
+// let feature_data = [
+//   {
+//     id: 1,
+//     img: "../images/f1.png",
+//     desc: "FREE SHIPING",
+//   },
+//   {
+//     id: 2,
+//     img: "../images/f2.png",
+//     desc: "ONLINE ORDER",
+//   },
+//   {
+//     id: 3,
+//     img: "../images/f3.png",
+//     desc: "SAVE MONEY",
+//   },
+//   {
+//     id: 4,
+//     img: "../images/f4.png",
+//     desc: "PROMOTIONS",
+//   },
+//   {
+//     id: 5,
+//     img: "../images/f5.png",
+//     desc: "HAPPY SELLS",
+//   },
+//   {
+//     id: 6,
+//     img: "../images/f6.png",
+//     desc: "F24/7 SUPPORT",
+//   },
+// ];
+// function generatefeatures(){
+//   return (feature.innerHTML=feature_data.map((x)=>{
+//     let {img,desc}=x;
+//     return `
+//         <div class="fe-box">
+//             <img src=${img} alt="">
+//             <h6>${desc}</h6>
+//         </div>
+//     `;
+//   }).join(""));
+// }
+// generatefeatures();
