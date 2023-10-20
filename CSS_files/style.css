@@ -373,6 +373,15 @@ body{
 #banner3 .banner-box3{
     background-image: url("../images/Banner/b18.jpg");
 }
+#banner3 .banner-box:hover{
+    box-shadow: 10px 10px 10px rgba(0, 1, 0, 0.1);
+}
+#banner3 .banner-box2:hover{
+    box-shadow: 10px 10px 10px rgba(0, 1, 0, 0.1);
+}
+#banner3 .banner-box3:hover{
+    box-shadow: 10px 10px 10px rgba(0, 1, 0, 0.1);
+}
 
 #newsletter{
     display: flex;
