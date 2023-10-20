@@ -534,6 +534,9 @@ footer .copywrite{
     color: #c9cbce;
     z-index: -9;
 }
+#blog .blog-box .blog-img img:hover{
+    box-shadow: 10px 10px 10px rgba(0, 1, 0, 0.1);
+}
 
 /* about page */
 #page-header.about-header{
