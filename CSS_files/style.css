@@ -231,7 +231,7 @@ body{
     width: 100%;
     border-radius: 20px;
 }
-#product1 .pro-container .pro i:hover{
+#product1 .pro-container .pro .buttons i:hover{
     color: #088178;
 }
 
